@@ -1,0 +1,19 @@
+{
+  "name": "atom-vim-colon-command-on-command-pallete",
+  "main": "./lib/atom-vim-colon-command-on-command-pallete",
+  "version": "0.0.0",
+  "description": "Add colon command on Command Pallete to vim-mode",
+  "keywords": [
+    "vim",
+    "command"
+  ],
+  "activationCommands": {
+  },
+  "repository": "https://github.com/takkjoga/atom-vim-colon-command-on-command-pallete",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
