@@ -13,12 +13,14 @@ module.exports =
       'atom-vim-colon-command-on-command-pallete:q':        => @quit(),
       'atom-vim-colon-command-on-command-pallete:quit':     => @quit(),
       'atom-vim-colon-command-on-command-pallete:wq':       => @writeAndQuit(),
+      'atom-vim-colon-command-on-command-pallete:x':        => @writeAndQuit(),
       'atom-vim-colon-command-on-command-pallete:tabnew':   => @openNewTab(),
       'w':                                                  => @write(),
       'write':                                              => @write(),
       'q':                                                  => @quit(),
       'quit':                                               => @quit(),
       'wq':                                                 => @writeAndQuit()
+      'x':                                                  => @writeAndQuit()
       'tabnew':                                             => @openNewTab()
     }
     @subscriptions.add atom.commands.add 'atom-text-editor', commands
