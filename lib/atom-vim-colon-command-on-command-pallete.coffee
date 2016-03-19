@@ -34,11 +34,11 @@ module.exports =
     atom.workspace.getActiveTextEditor().save()
 
   quit: ->
-    atom.workspace.destroyActivePaneItemOrEmptyPane()
+    atom.workspace.destroyActivePaneItem()
 
   writeAndQuit: ->
     atom.workspace.getActiveTextEditor().save()
-    atom.workspace.destroyActivePaneItemOrEmptyPane()
+    atom.workspace.destroyActivePaneItem()
 
   openNewTab: ->
     atom.workspace.open()
